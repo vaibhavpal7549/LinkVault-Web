@@ -1,0 +1,5 @@
+# LinkVault Robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://linkvault.app/sitemap.xml
