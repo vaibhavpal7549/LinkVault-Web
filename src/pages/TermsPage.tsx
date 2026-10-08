@@ -15,7 +15,7 @@ export const TermsPage: React.FC<TermsPageProps> = ({ onNavigate }) => {
           className="inline-flex items-center gap-2 text-xs font-semibold text-blue-400 hover:text-blue-300 transition cursor-pointer"
         >
           <ArrowLeft className="w-4 h-4" />
-          <span>Back to LinkVault Home</span>
+          <span>Back to ProfiVault Home</span>
         </button>
 
         <div className="space-y-3 border-b border-slate-800 pb-8">
@@ -24,7 +24,7 @@ export const TermsPage: React.FC<TermsPageProps> = ({ onNavigate }) => {
             <span>Legal Terms</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-white">
-            LinkVault Terms of Service
+            ProfiVault Terms of Service
           </h1>
           <p className="text-sm text-slate-400">
             Last Updated: October 2026
@@ -36,7 +36,7 @@ export const TermsPage: React.FC<TermsPageProps> = ({ onNavigate }) => {
           <AlertCircle className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
           <div>
             <strong className="font-semibold">Important Notice: </strong>
-            These terms serve as product terms for the LinkVault Chrome extension. The final legal agreement should be reviewed by legal counsel before production deployment.
+            These terms serve as product terms for the ProfiVault Chrome extension. The final legal agreement should be reviewed by legal counsel before production deployment.
           </div>
         </div>
 
@@ -44,28 +44,28 @@ export const TermsPage: React.FC<TermsPageProps> = ({ onNavigate }) => {
           <section className="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-2">
             <h2 className="text-lg font-bold text-white">1. Acceptance of Terms</h2>
             <p>
-              By installing, accessing, or using the LinkVault Chrome extension ("Service"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please uninstall the extension.
+              By installing, accessing, or using the ProfiVault Chrome extension ("Service"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please uninstall the extension.
             </p>
           </section>
 
           <section className="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-2">
             <h2 className="text-lg font-bold text-white">2. Scope of Service</h2>
             <p>
-              LinkVault provides a browser extension interface for users to save, organize, and copy their profile and portfolio URLs. LinkVault is not a job portal, employment agency, recruitment service, or automated application bot.
+              ProfiVault provides a browser extension interface for users to save, organize, and copy their profile and portfolio URLs. ProfiVault is not a job portal, employment agency, recruitment service, or automated application bot.
             </p>
           </section>
 
           <section className="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-2">
             <h2 className="text-lg font-bold text-white">3. User Responsibilities</h2>
             <p>
-              You are responsible for the accuracy of the profile links you save in LinkVault and for adhering to the terms of service of third-party job application portals where you paste your links.
+              You are responsible for the accuracy of the profile links you save in ProfiVault and for adhering to the terms of service of third-party job application portals where you paste your links.
             </p>
           </section>
 
           <section className="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-2">
             <h2 className="text-lg font-bold text-white">4. Disclaimer of Guarantees</h2>
             <p>
-              LinkVault does not guarantee employment, job interviews, client proposals, or specific career outcomes. The extension is provided "as is" without warranties of any kind.
+              ProfiVault does not guarantee employment, job interviews, client proposals, or specific career outcomes. The extension is provided "as is" without warranties of any kind.
             </p>
           </section>
 

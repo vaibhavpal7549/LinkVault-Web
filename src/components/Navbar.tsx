@@ -132,7 +132,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs shadow-lg shadow-blue-600/25 hover:shadow-blue-500/40 border border-blue-400/30 transition transform hover:-translate-y-0.5 active:translate-y-0"
             >
               <Download className="w-4 h-4" />
-              <span>Get LinkVault</span>
+              <span>Get ProfiVault</span>
             </a>
           </div>
 
@@ -178,7 +178,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
               onClick={() => handleNavClick('/', 'what-it-does-not-do')}
               className="w-full text-left px-3 py-2.5 rounded-lg hover:bg-slate-900 hover:text-blue-400 flex items-center justify-between"
             >
-              <span>What LinkVault Doesn't Do</span>
+              <span>What ProfiVault Doesn't Do</span>
               <ChevronRight className="w-4 h-4 text-slate-500" />
             </button>
             <button
@@ -213,7 +213,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
               onClick={() => handleNavClick('/about')}
               className="w-full text-left px-3 py-2.5 rounded-lg hover:bg-slate-900 hover:text-blue-400 flex items-center justify-between"
             >
-              <span>About LinkVault</span>
+              <span>About ProfiVault</span>
               <ChevronRight className="w-4 h-4 text-slate-500" />
             </button>
           </div>
@@ -226,7 +226,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
               className="w-full flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-blue-600 text-white font-semibold text-sm shadow-lg shadow-blue-600/30"
             >
               <Download className="w-4 h-4" />
-              <span>Get LinkVault for Chrome</span>
+              <span>Get ProfiVault for Chrome</span>
             </a>
           </div>
         </div>

@@ -13,7 +13,7 @@ export const BeforeAfterSection: React.FC = () => {
   ];
 
   const afterSteps = [
-    'Open LinkVault toolbar icon',
+    'Open ProfiVault toolbar icon',
     'Find your saved link',
     'Click "Copy"',
     'Paste directly into your form',
@@ -24,8 +24,8 @@ export const BeforeAfterSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           badge="Productivity Comparison"
-          title="Before vs After LinkVault"
-          subtitle="See how LinkVault removes tedious steps from your daily job application workflow."
+          title="Before vs After ProfiVault"
+          subtitle="See how ProfiVault removes tedious steps from your daily job application workflow."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 max-w-5xl mx-auto">
@@ -36,7 +36,7 @@ export const BeforeAfterSection: React.FC = () => {
                 <div className="w-8 h-8 rounded-lg bg-red-950/80 flex items-center justify-center border border-red-900/50">
                   <X className="w-5 h-5 text-red-400" />
                 </div>
-                <span>BEFORE LINKVAULT</span>
+                <span>BEFORE ProfiVault</span>
               </div>
               <span className="text-xs font-mono text-red-400/80 bg-red-950/60 px-2.5 py-1 rounded border border-red-900/30 flex items-center gap-1">
                 <Clock className="w-3.5 h-3.5" /> Slow & Repetitive
@@ -66,7 +66,7 @@ export const BeforeAfterSection: React.FC = () => {
                 <div className="w-8 h-8 rounded-lg bg-blue-600/20 flex items-center justify-center border border-blue-500/40">
                   <Check className="w-5 h-5 text-blue-400" />
                 </div>
-                <span>WITH LINKVAULT</span>
+                <span>WITH ProfiVault</span>
               </div>
               <span className="text-xs font-mono text-emerald-400 bg-emerald-950/60 px-2.5 py-1 rounded border border-emerald-900/30 flex items-center gap-1">
                 <Zap className="w-3.5 h-3.5" /> Instant Copy

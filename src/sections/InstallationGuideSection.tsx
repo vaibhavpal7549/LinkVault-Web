@@ -7,22 +7,22 @@ export const InstallationGuideSection: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'store' | 'dev'>('store');
 
   const webStoreSteps = [
-    { num: '1', text: 'Open the official LinkVault Chrome Web Store page.' },
+    { num: '1', text: 'Open the official ProfiVault Chrome Web Store page.' },
     { num: '2', text: 'Click the blue "Add to Chrome" button.' },
     { num: '3', text: 'Confirm the installation in the browser prompt.' },
-    { num: '4', text: 'Pin LinkVault to your Chrome toolbar for fast 1-click access.' },
-    { num: '5', text: 'Click the LinkVault vault icon to open the extension popup.' },
+    { num: '4', text: 'Pin ProfiVault to your Chrome toolbar for fast 1-click access.' },
+    { num: '5', text: 'Click the ProfiVault vault icon to open the extension popup.' },
     { num: '6', text: 'Add your professional, resume, and coding profile links.' },
     { num: '7', text: 'Start copying links quickly whenever an application asks!' },
   ];
 
   const devBuildSteps = [
-    { num: '1', text: 'Clone or download the LinkVault extension source folder to your local computer.' },
+    { num: '1', text: 'Clone or download the ProfiVault extension source folder to your local computer.' },
     { num: '2', text: 'Open Google Chrome and navigate to chrome://extensions in the URL bar.' },
     { num: '3', text: 'Enable the "Developer mode" toggle in the upper right corner.' },
     { num: '4', text: 'Click the "Load unpacked" button in the top toolbar.' },
     { num: '5', text: 'Select the directory containing manifest.json and the compiled build files.' },
-    { num: '6', text: 'The LinkVault extension icon will appear in your Chrome toolbar.' },
+    { num: '6', text: 'The ProfiVault extension icon will appear in your Chrome toolbar.' },
   ];
 
   return (
@@ -30,8 +30,8 @@ export const InstallationGuideSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           badge="Getting Started"
-          title="How to Install LinkVault"
-          subtitle="Follow these simple steps to install LinkVault on your Chrome browser in less than a minute."
+          title="How to Install ProfiVault"
+          subtitle="Follow these simple steps to install ProfiVault on your Chrome browser in less than a minute."
         />
 
         {/* Installation Mode Selector Tabs */}

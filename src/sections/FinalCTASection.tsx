@@ -25,7 +25,7 @@ export const FinalCTASection: React.FC = () => {
           </h2>
 
           <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            Install LinkVault and keep your professional links ready whenever you need them.
+            Install ProfiVault and keep your professional links ready whenever you need them.
           </p>
 
           <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -36,7 +36,7 @@ export const FinalCTASection: React.FC = () => {
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-base shadow-xl shadow-blue-600/30 border border-blue-400/40 transition transform hover:-translate-y-0.5 active:translate-y-0"
             >
               <Download className="w-5 h-5" />
-              <span>Add LinkVault to Chrome</span>
+              <span>Add ProfiVault to Chrome</span>
             </a>
           </div>
 

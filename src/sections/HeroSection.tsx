@@ -51,7 +51,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 text-white font-bold text-sm shadow-xl shadow-blue-600/30 border border-blue-400/30 transition-all transform hover:-translate-y-0.5 active:translate-y-0"
               >
                 <Download className="w-5 h-5" />
-                <span>Get LinkVault for Chrome</span>
+                <span>Get ProfiVault for Chrome</span>
               </a>
 
               <button

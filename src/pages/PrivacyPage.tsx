@@ -16,7 +16,7 @@ export const PrivacyPage: React.FC<PrivacyPageProps> = ({ onNavigate }) => {
           className="inline-flex items-center gap-2 text-xs font-semibold text-blue-400 hover:text-blue-300 transition cursor-pointer"
         >
           <ArrowLeft className="w-4 h-4" />
-          <span>Back to LinkVault Home</span>
+          <span>Back to ProfiVault Home</span>
         </button>
 
         {/* Page Header */}
@@ -26,10 +26,10 @@ export const PrivacyPage: React.FC<PrivacyPageProps> = ({ onNavigate }) => {
             <span>Official Privacy Statement</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-white">
-            LinkVault Privacy Policy
+            ProfiVault Privacy Policy
           </h1>
           <p className="text-sm text-slate-400">
-            Last Updated: October 2026 | Effective for all LinkVault Chrome Extension Users
+            Last Updated: October 2026 | Effective for all ProfiVault Chrome Extension Users
           </p>
         </div>
 
@@ -41,7 +41,7 @@ export const PrivacyPage: React.FC<PrivacyPageProps> = ({ onNavigate }) => {
               1. Information the Extension Handles
             </h2>
             <p>
-              LinkVault is designed around user privacy and minimal data requirements. The extension handles only the user-provided profile titles and URLs that you explicitly save within the LinkVault extension interface.
+              ProfiVault is designed around user privacy and minimal data requirements. The extension handles only the user-provided profile titles and URLs that you explicitly save within the ProfiVault extension interface.
             </p>
           </section>
 
@@ -55,28 +55,28 @@ export const PrivacyPage: React.FC<PrivacyPageProps> = ({ onNavigate }) => {
           <section className="space-y-3 bg-slate-900/60 p-6 rounded-2xl border border-slate-800">
             <h2 className="text-xl font-bold text-white">3. Google Authentication (If Enabled)</h2>
             <p>
-              If Google Sign-In is enabled in your version of the production Chrome extension, Google OAuth (<code className="text-xs font-mono text-blue-300 bg-slate-950 px-1 py-0.5 rounded">chrome.identity</code>) is used solely to authenticate your identity and associate your account settings. LinkVault does not access your Google emails, contacts, Google Drive files, or unrelated account data.
+              If Google Sign-In is enabled in your version of the production Chrome extension, Google OAuth (<code className="text-xs font-mono text-blue-300 bg-slate-950 px-1 py-0.5 rounded">chrome.identity</code>) is used solely to authenticate your identity and associate your account settings. ProfiVault does not access your Google emails, contacts, Google Drive files, or unrelated account data.
             </p>
           </section>
 
           <section className="space-y-3 bg-slate-900/60 p-6 rounded-2xl border border-slate-800">
             <h2 className="text-xl font-bold text-white">4. Browser Storage & Data Retention</h2>
             <p>
-              All saved links remain stored in your local Chrome extension storage as long as the extension remains installed. If you delete a link from the LinkVault interface, it is instantly removed from storage. Uninstalling the Chrome extension completely purges all local storage entries created by LinkVault.
+              All saved links remain stored in your local Chrome extension storage as long as the extension remains installed. If you delete a link from the ProfiVault interface, it is instantly removed from storage. Uninstalling the Chrome extension completely purges all local storage entries created by ProfiVault.
             </p>
           </section>
 
           <section className="space-y-3 bg-slate-900/60 p-6 rounded-2xl border border-slate-800">
             <h2 className="text-xl font-bold text-white">5. Clipboard Usage</h2>
             <p>
-              LinkVault requests the <code className="text-xs font-mono text-blue-300 bg-slate-950 px-1 py-0.5 rounded">clipboardWrite</code> permission. This permission is invoked strictly when you manually click the "Copy" button next to a saved link in order to copy that specific URL to your system clipboard. LinkVault never reads your clipboard history or modifies clipboard data without user interaction.
+              ProfiVault requests the <code className="text-xs font-mono text-blue-300 bg-slate-950 px-1 py-0.5 rounded">clipboardWrite</code> permission. This permission is invoked strictly when you manually click the "Copy" button next to a saved link in order to copy that specific URL to your system clipboard. ProfiVault never reads your clipboard history or modifies clipboard data without user interaction.
             </p>
           </section>
 
           <section className="space-y-3 bg-slate-900/60 p-6 rounded-2xl border border-slate-800">
             <h2 className="text-xl font-bold text-white">6. Permissions Scope</h2>
             <p>
-              LinkVault requests only the following permissions:
+              ProfiVault requests only the following permissions:
             </p>
             <ul className="list-disc pl-5 space-y-1 text-slate-300">
               <li><strong className="text-white">storage:</strong> To save your links and preferences locally in Chrome.</li>
@@ -88,7 +88,7 @@ export const PrivacyPage: React.FC<PrivacyPageProps> = ({ onNavigate }) => {
           <section className="space-y-3 bg-slate-900/60 p-6 rounded-2xl border border-slate-800">
             <h2 className="text-xl font-bold text-white">7. Data Sharing & Third-Party Services</h2>
             <p>
-              LinkVault does not sell, rent, monetize, or trade your saved links or personal data to third parties, recruiters, advertisers, or data brokers.
+              ProfiVault does not sell, rent, monetize, or trade your saved links or personal data to third parties, recruiters, advertisers, or data brokers.
             </p>
           </section>
 

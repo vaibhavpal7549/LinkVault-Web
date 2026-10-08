@@ -7,7 +7,7 @@ export const HowItWorksSection: React.FC = () => {
     {
       stepNumber: '01',
       title: 'Add Your Links',
-      description: 'Save your frequently used professional links in LinkVault once during setup.',
+      description: 'Save your frequently used professional links in ProfiVault once during setup.',
       icon: <PlusCircle className="w-7 h-7 text-blue-400" />,
       accentColor: 'from-blue-600/20 to-blue-800/10',
       borderColor: 'border-blue-500/30',
@@ -35,7 +35,7 @@ export const HowItWorksSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           badge="Simple Workflow"
-          title="How LinkVault Works"
+          title="How ProfiVault Works"
           subtitle="Three simple steps to streamline link sharing during job applications and everyday professional work."
         />
 

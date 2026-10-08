@@ -26,7 +26,7 @@ export const WhoIsItForSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           badge="Target Audience"
-          title="Who Is LinkVault For?"
+          title="Who Is ProfiVault For?"
           subtitle="Built specifically for anyone who frequently shares professional links or fills out job application forms."
         />
 

@@ -14,7 +14,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
           className="inline-flex items-center gap-2 text-xs font-semibold text-blue-400 hover:text-blue-300 transition cursor-pointer"
         >
           <ArrowLeft className="w-4 h-4" />
-          <span>Back to LinkVault Home</span>
+          <span>Back to ProfiVault Home</span>
         </button>
 
         <div className="space-y-3 border-b border-slate-800 pb-8">
@@ -23,21 +23,21 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
             <span>Product Mission</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-white">
-            About LinkVault
+            About ProfiVault
           </h1>
           <p className="text-base text-slate-400">
-            "LinkVault was created to solve a simple problem: professional links are repeatedly requested, but finding them shouldn't be repetitive."
+            "ProfiVault was created to solve a simple problem: professional links are repeatedly requested, but finding them shouldn't be repetitive."
           </p>
         </div>
 
         <div className="space-y-6 text-sm sm:text-base leading-relaxed text-slate-300">
           <div className="p-8 rounded-3xl bg-slate-900 border border-slate-800 space-y-4">
-            <h2 className="text-xl font-bold text-white">Why We Built LinkVault</h2>
+            <h2 className="text-xl font-bold text-white">Why We Built ProfiVault</h2>
             <p>
               Whether applying for jobs, submitting internship applications, sharing developer profiles, or pitching freelance clients, professionals constantly find themselves searching for the exact same set of links: LinkedIn, GitHub, portfolio, resume, LeetCode, CodeChef, and HackerRank.
             </p>
             <p>
-              LinkVault eliminates this daily friction by keeping your essential profile links ready inside a clean Chrome extension popup. Open the extension, click copy, and paste immediately.
+              ProfiVault eliminates this daily friction by keeping your essential profile links ready inside a clean Chrome extension popup. Open the extension, click copy, and paste immediately.
             </p>
           </div>
 

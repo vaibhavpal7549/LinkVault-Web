@@ -131,7 +131,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   onClick={() => handleLinkClick('/', 'what-it-does-not-do')}
                   className="hover:text-blue-400 transition"
                 >
-                  What LinkVault Does NOT Do
+                  What ProfiVault Does NOT Do
                 </button>
               </li>
               <li>
@@ -180,7 +180,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   onClick={() => handleLinkClick('/about')}
                   className="hover:text-blue-400 transition"
                 >
-                  About LinkVault
+                  About ProfiVault
                 </button>
               </li>
             </ul>

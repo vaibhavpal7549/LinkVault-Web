@@ -13,7 +13,7 @@ export const ProductDemoSection: React.FC<ProductDemoSectionProps> = ({ onCopySu
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           badge="Live Interactive Preview"
-          title="Experience LinkVault In Action"
+          title="Experience ProfiVault In Action"
           subtitle="Test out the real interface right here. Click any 'Copy' button below to simulate copied links."
         />
 

@@ -28,8 +28,8 @@ export const SupportPage: React.FC<SupportPageProps> = ({ onNavigate }) => {
         },
         body: JSON.stringify({
           access_key: CONFIG.WEB3FORMS_KEY,
-          subject: `[LinkVault Support] ${subject}`,
-          from_name: 'LinkVault Web Support',
+          subject: `[ProfiVault Support] ${subject}`,
+          from_name: 'ProfiVault Web Support',
           replyto: userEmail,
           email: userEmail,
           message: `Sender Email: ${userEmail}\nSubject: ${subject}\n\nMessage:\n${message}`,
@@ -53,7 +53,7 @@ export const SupportPage: React.FC<SupportPageProps> = ({ onNavigate }) => {
     {
       title: 'Installation & Pinning Help',
       problem: 'Extension icon does not show up in the Chrome toolbar after installing.',
-      solution: 'Click the puzzle piece icon (Extensions menu) in the top-right corner of Chrome, locate LinkVault in the list, and click the Pin icon to keep it visible.',
+      solution: 'Click the puzzle piece icon (Extensions menu) in the top-right corner of Chrome, locate ProfiVault in the list, and click the Pin icon to keep it visible.',
     },
     {
       title: 'Google Sign-In Troubleshooting',
@@ -68,7 +68,7 @@ export const SupportPage: React.FC<SupportPageProps> = ({ onNavigate }) => {
     {
       title: 'Copy Button Troubleshooting',
       problem: 'Clicking Copy does not copy the link to clipboard.',
-      solution: 'Verify that Chrome has granted clipboard write permission to LinkVault in chrome://extensions. Try restarting your browser.',
+      solution: 'Verify that Chrome has granted clipboard write permission to ProfiVault in chrome://extensions. Try restarting your browser.',
     },
   ];
 
@@ -80,7 +80,7 @@ export const SupportPage: React.FC<SupportPageProps> = ({ onNavigate }) => {
           className="inline-flex items-center gap-2 text-xs font-semibold text-blue-400 hover:text-blue-300 transition cursor-pointer"
         >
           <ArrowLeft className="w-4 h-4" />
-          <span>Back to LinkVault Home</span>
+          <span>Back to ProfiVault Home</span>
         </button>
 
         <div className="space-y-3 border-b border-slate-800 pb-8">
@@ -89,7 +89,7 @@ export const SupportPage: React.FC<SupportPageProps> = ({ onNavigate }) => {
             <span>Support Hub</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-white">
-            LinkVault Support & Troubleshooting
+            ProfiVault Support & Troubleshooting
           </h1>
           <p className="text-sm text-slate-400">
             Having trouble? Find common troubleshooting fixes or email our support team directly.

@@ -1,6 +1,6 @@
-# LinkVault Website — Deployment Guide (`deploy.md`)
+# ProfiVault Website — Deployment Guide (`deploy.md`)
 
-This document provides step-by-step instructions for building and deploying the **LinkVault** website to production hosting platforms.
+This document provides step-by-step instructions for building and deploying the **ProfiVault** website to production hosting platforms.
 
 ---
 
@@ -13,13 +13,13 @@ Before deploying, ensure you have updated the centralized configuration file wit
 
 ```typescript
 export const CONFIG = {
-  PRODUCT_NAME: "LinkVault",
+  PRODUCT_NAME: "ProfiVault",
   PRODUCT_TAGLINE: "Your professional links, always within reach.",
-  PRODUCT_DESCRIPTION: "LinkVault is a Chrome extension that lets users save, organize, and quickly copy their important professional links from one place.",
+  PRODUCT_DESCRIPTION: "ProfiVault is a Chrome extension that lets users save, organize, and quickly copy their important professional links from one place.",
   CHROME_WEB_STORE_URL: "https://chrome.google.com/webstore/detail/bkbmplkfckpkjkjkmeipomiklhdbfobo",
   SUPPORT_EMAIL: "business.technicalaajtak@gmail.com",
   PRIVACY_EMAIL: "business.technicalaajtak@gmail.com",
-  SITE_URL: "https://linkvault.app",
+  SITE_URL: "https://ProfiVault.app",
 };
 ```
 
@@ -31,7 +31,7 @@ To compile the production build:
 
 ```bash
 # Navigate to the website project directory
-cd "d:\LinkVault Web"
+cd "d:\ProfiVault Web"
 
 # Install dependencies (if not already installed)
 npm install
@@ -137,15 +137,15 @@ To deploy using GitHub Pages:
 
 If deploying to your own Virtual Private Server (VPS) running Nginx:
 
-1. Upload the contents of the `dist/` directory to `/var/www/linkvault-web`.
-2. Configure your Nginx block (`/etc/nginx/sites-available/linkvault`):
+1. Upload the contents of the `dist/` directory to `/var/www/ProfiVault-web`.
+2. Configure your Nginx block (`/etc/nginx/sites-available/ProfiVault`):
 
 ```nginx
 server {
     listen 80;
-    server_name linkvault.app www.linkvault.app;
+    server_name ProfiVault.app www.ProfiVault.app;
 
-    root /var/www/linkvault-web;
+    root /var/www/ProfiVault-web;
     index index.html;
 
     location / {
@@ -162,7 +162,7 @@ server {
 
 3. Enable configuration & reload Nginx:
    ```bash
-   sudo ln -s /etc/nginx/sites-available/linkvault /etc/nginx/sites-enabled/
+   sudo ln -s /etc/nginx/sites-available/ProfiVault /etc/nginx/sites-enabled/
    sudo nginx -t
    sudo systemctl reload nginx
    ```

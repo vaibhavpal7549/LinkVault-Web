@@ -63,15 +63,15 @@ export const ProblemSection: React.FC = () => {
             <div className="relative p-8 rounded-3xl bg-gradient-to-br from-blue-950/80 via-slate-900 to-slate-900 border border-blue-500/30 shadow-2xl shadow-blue-950/50 space-y-6">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-semibold border border-blue-500/30">
                 <CheckCircle2 className="w-4 h-4 text-blue-400" />
-                <span>The LinkVault Solution</span>
+                <span>The ProfiVault Solution</span>
               </div>
 
               <h3 className="text-2xl sm:text-3xl font-bold text-white leading-tight">
-                LinkVault puts your frequently used professional links in one place.
+                ProfiVault puts your frequently used professional links in one place.
               </h3>
 
               <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-                Instead of jumping between open tabs, search histories, or text documents, open LinkVault directly from your Chrome toolbar and copy any profile link in a single click.
+                Instead of jumping between open tabs, search histories, or text documents, open ProfiVault directly from your Chrome toolbar and copy any profile link in a single click.
               </p>
 
               <div className="pt-2 border-t border-slate-800 flex items-center justify-between text-xs text-blue-400 font-medium">

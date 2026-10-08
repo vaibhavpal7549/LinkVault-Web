@@ -22,7 +22,7 @@ export const FAQSection: React.FC = () => {
         <SectionHeading
           badge="Frequently Asked Questions"
           title="Everything You Need to Know"
-          subtitle="Got questions about LinkVault? Find quick, clear answers below."
+          subtitle="Got questions about ProfiVault? Find quick, clear answers below."
         />
 
         {/* Category Filters */}

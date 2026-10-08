@@ -24,7 +24,7 @@ export const PermissionsSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           badge="Browser Manifest Integrity"
-          title="Why Does LinkVault Need Permissions?"
+          title="Why Does ProfiVault Need Permissions?"
           subtitle="We only request essential permissions required to deliver core functionality. No extra background tracking."
         />
 

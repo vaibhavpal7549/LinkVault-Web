@@ -1,5 +1,5 @@
-# LinkVault Robots.txt
+# ProfiVault Robots.txt
 User-agent: *
 Allow: /
 
-Sitemap: https://linkvault.app/sitemap.xml
+Sitemap: https://profivault.app/sitemap.xml

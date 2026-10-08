@@ -4,17 +4,17 @@ import { XCircle, ShieldAlert, Info } from 'lucide-react';
 
 export const WhatItDoesNotDoSection: React.FC = () => {
   const nonFeatures = [
-    'LinkVault does not apply for jobs on the user\'s behalf.',
-    'LinkVault does not automatically submit job applications.',
-    'LinkVault does not scrape job websites.',
-    'LinkVault does not automatically collect personal information from random websites.',
-    'LinkVault does not modify job application forms automatically.',
-    'LinkVault does not read the content of every website unnecessarily.',
-    'LinkVault does not sell users\' professional links.',
-    'LinkVault is not a job portal.',
-    'LinkVault is not a recruitment platform.',
-    'LinkVault is not an AI job application agent.',
-    'LinkVault does not guarantee employment or job placement.',
+    'ProfiVault does not apply for jobs on the user\'s behalf.',
+    'ProfiVault does not automatically submit job applications.',
+    'ProfiVault does not scrape job websites.',
+    'ProfiVault does not automatically collect personal information from random websites.',
+    'ProfiVault does not modify job application forms automatically.',
+    'ProfiVault does not read the content of every website unnecessarily.',
+    'ProfiVault does not sell users\' professional links.',
+    'ProfiVault is not a job portal.',
+    'ProfiVault is not a recruitment platform.',
+    'ProfiVault is not an AI job application agent.',
+    'ProfiVault does not guarantee employment or job placement.',
   ];
 
   return (
@@ -22,7 +22,7 @@ export const WhatItDoesNotDoSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           badge="Clear Boundaries & Honesty"
-          title="What LinkVault Does NOT Do"
+          title="What ProfiVault Does NOT Do"
           subtitle="We believe in total transparency. Here is a clear list of what our Chrome extension does NOT do."
         />
 
@@ -35,7 +35,7 @@ export const WhatItDoesNotDoSection: React.FC = () => {
               <div>
                 <h3 className="text-lg font-bold text-white">Transparent Scope of Functionality</h3>
                 <p className="text-xs text-slate-400">
-                  LinkVault is strictly a fast profile link copier and organizer.
+                  ProfiVault is strictly a fast profile link copier and organizer.
                 </p>
               </div>
             </div>
@@ -59,7 +59,7 @@ export const WhatItDoesNotDoSection: React.FC = () => {
               <Info className="w-4 h-4 text-blue-400 shrink-0 mt-0.5" />
               <div className="leading-relaxed">
                 <strong className="font-semibold text-blue-200">Product Integrity Guarantee: </strong>
-                LinkVault uses Chrome standard extension storage to store saved URLs locally. We do not claim unsupported capabilities such as background page scraping or automatic form auto-fill.
+                ProfiVault uses Chrome standard extension storage to store saved URLs locally. We do not claim unsupported capabilities such as background page scraping or automatic form auto-fill.
               </div>
             </div>
           </div>

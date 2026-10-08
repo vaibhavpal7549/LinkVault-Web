@@ -15,7 +15,7 @@ export const PrivacyTrustSection: React.FC<PrivacyTrustSectionProps> = ({
         <SectionHeading
           badge="Data Integrity"
           title="Your Links. Your Control."
-          subtitle="Transparent information on how LinkVault stores your saved links and handles browser storage."
+          subtitle="Transparent information on how ProfiVault stores your saved links and handles browser storage."
         />
 
         <div className="max-w-4xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -25,7 +25,7 @@ export const PrivacyTrustSection: React.FC<PrivacyTrustSectionProps> = ({
             </div>
             <h3 className="text-lg font-bold text-white">Browser Storage</h3>
             <p className="text-sm text-slate-300 leading-relaxed">
-              LinkVault uses Chrome extension storage (<code className="text-xs font-mono text-blue-300 bg-slate-950 px-1.5 py-0.5 rounded border border-slate-800">chrome.storage</code>) to keep your saved links and extension preferences locally accessible across your browser sessions.
+              ProfiVault uses Chrome extension storage (<code className="text-xs font-mono text-blue-300 bg-slate-950 px-1.5 py-0.5 rounded border border-slate-800">chrome.storage</code>) to keep your saved links and extension preferences locally accessible across your browser sessions.
             </p>
           </div>
 

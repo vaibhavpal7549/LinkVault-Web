@@ -166,7 +166,7 @@ export const ExtensionMockup: React.FC<ExtensionMockupProps> = ({
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <h3 className="font-bold text-sm text-white tracking-tight">LinkVault</h3>
+              <h3 className="font-bold text-sm text-white tracking-tight">ProfiVault</h3>
               <span className="px-1.5 py-0.2 rounded text-[10px] bg-blue-500/20 text-blue-300 font-semibold border border-blue-500/30">
                 v1.0
               </span>
