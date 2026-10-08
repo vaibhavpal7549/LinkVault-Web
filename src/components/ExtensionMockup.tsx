@@ -161,8 +161,8 @@ export const ExtensionMockup: React.FC<ExtensionMockupProps> = ({
       {/* Extension Header */}
       <div className="p-4 bg-slate-900 border-b border-slate-800 flex items-center justify-between">
         <div className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center text-white font-bold shadow-lg shadow-blue-600/30 border border-blue-400/30">
-            <Lock className="w-4 h-4" />
+          <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center p-1 shadow-lg shadow-blue-600/30 border border-blue-400/30 overflow-hidden">
+            <img src="/apple-touch-icon.png" alt="ProfiVault Logo" className="w-full h-full object-contain rounded-md" />
           </div>
           <div>
             <div className="flex items-center gap-2">

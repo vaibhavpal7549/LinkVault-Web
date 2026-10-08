@@ -26,8 +26,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           {/* Brand Info */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-xl bg-blue-600 flex items-center justify-center text-white font-bold shadow-md shadow-blue-600/30">
-                <Lock className="w-4 h-4" />
+              <div className="w-8 h-8 rounded-xl bg-blue-600 flex items-center justify-center p-1 shadow-md shadow-blue-600/30 overflow-hidden">
+                <img src="/apple-touch-icon.png" alt="ProfiVault Logo" className="w-full h-full object-contain rounded-md" />
               </div>
               <span className="font-heading font-extrabold text-xl text-white tracking-tight">
                 {CONFIG.PRODUCT_NAME}
