@@ -18,8 +18,8 @@ export const CONFIG: Config = {
     "LinkVault is a Chrome extension that lets users save, organize, and quickly copy their important professional links from one place.",
   CHROME_WEB_STORE_URL:
     "https://chromewebstore.google.com/detail/linkvault/placeholder-replace-with-your-extension-id",
-  SUPPORT_EMAIL: "support@linkvault.app",
-  PRIVACY_EMAIL: "privacy@linkvault.app",
+  SUPPORT_EMAIL: "business.technicalaajtak@gmail.com",
+  PRIVACY_EMAIL: "business.technicalaajtak@gmail.com",
   SITE_URL: "https://linkvault.app",
   GITHUB_URL: "https://github.com/linkvault",
   LINKEDIN_URL: "https://linkedin.com/company/linkvault",

@@ -17,8 +17,8 @@ export const CONFIG = {
   PRODUCT_TAGLINE: "Your professional links, always within reach.",
   PRODUCT_DESCRIPTION: "LinkVault is a Chrome extension that lets users save, organize, and quickly copy their important professional links from one place.",
   CHROME_WEB_STORE_URL: "https://chromewebstore.google.com/detail/linkvault/YOUR_REAL_EXTENSION_ID",
-  SUPPORT_EMAIL: "[EMAIL_ADDRESS]",
-  PRIVACY_EMAIL: "[EMAIL_ADDRESS]",
+  SUPPORT_EMAIL: "business.technicalaajtak@gmail.com",
+  PRIVACY_EMAIL: "business.technicalaajtak@gmail.com",
   SITE_URL: "https://linkvault.app",
 };
 ```
