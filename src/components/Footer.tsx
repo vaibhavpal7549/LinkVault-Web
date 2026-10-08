@@ -1,6 +1,6 @@
 import React from 'react';
 import { CONFIG } from '../data/config';
-import { Lock, Mail, ExternalLink } from 'lucide-react';
+import { Mail, ExternalLink } from 'lucide-react';
 
 interface FooterProps {
   onNavigate: (path: string) => void;
@@ -26,9 +26,11 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           {/* Brand Info */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-xl bg-blue-600 flex items-center justify-center p-1 shadow-md shadow-blue-600/30 overflow-hidden">
-                <img src="/apple-touch-icon.png" alt="ProfiVault Logo" className="w-full h-full object-contain rounded-md" />
-              </div>
+              <img
+                src="/apple-touch-icon.png"
+                alt="ProfiVault Logo"
+                className="w-8 h-8 rounded-lg shadow-md shadow-blue-500/20 object-cover"
+              />
               <span className="font-heading font-extrabold text-xl text-white tracking-tight">
                 {CONFIG.PRODUCT_NAME}
               </span>

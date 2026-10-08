@@ -4,7 +4,6 @@ import {
   Check,
   Search,
   Plus,
-  Lock,
   ShieldCheck,
   User,
   Sparkles,
@@ -161,9 +160,11 @@ export const ExtensionMockup: React.FC<ExtensionMockupProps> = ({
       {/* Extension Header */}
       <div className="p-4 bg-slate-900 border-b border-slate-800 flex items-center justify-between">
         <div className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center p-1 shadow-lg shadow-blue-600/30 border border-blue-400/30 overflow-hidden">
-            <img src="/apple-touch-icon.png" alt="ProfiVault Logo" className="w-full h-full object-contain rounded-md" />
-          </div>
+          <img
+            src="/apple-touch-icon.png"
+            alt="ProfiVault Logo"
+            className="w-8 h-8 rounded-xl shadow-md shadow-blue-500/20 object-cover"
+          />
           <div>
             <div className="flex items-center gap-2">
               <h3 className="font-bold text-sm text-white tracking-tight">ProfiVault</h3>

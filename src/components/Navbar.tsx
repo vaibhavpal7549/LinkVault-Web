@@ -44,11 +44,11 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
               onClick={() => handleNavClick('/')}
               className="flex items-center gap-2.5 group text-left cursor-pointer focus:outline-none"
             >
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 via-blue-500 to-indigo-600 p-0.5 shadow-lg shadow-blue-600/20 group-hover:shadow-blue-500/40 transition">
-                <div className="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center p-1.5 overflow-hidden">
-                  <img src="/apple-touch-icon.png" alt="ProfiVault Logo" className="w-full h-full object-contain rounded-md" />
-                </div>
-              </div>
+              <img
+                src="/apple-touch-icon.png"
+                alt="ProfiVault Logo"
+                className="w-9 h-9 rounded-xl shadow-md shadow-blue-500/20 group-hover:scale-105 transition object-cover"
+              />
               <div>
                 <span className="font-heading font-extrabold text-lg text-white tracking-tight flex items-center gap-1.5">
                   {CONFIG.PRODUCT_NAME}
