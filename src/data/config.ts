@@ -9,6 +9,7 @@ export interface Config {
   GITHUB_URL: string;
   LINKEDIN_URL: string;
   VERSION: string;
+  WEB3FORMS_KEY: string;
 }
 
 export const CONFIG: Config = {
@@ -24,6 +25,7 @@ export const CONFIG: Config = {
   GITHUB_URL: "https://github.com/linkvault",
   LINKEDIN_URL: "https://linkedin.com/company/linkvault",
   VERSION: "1.0.0",
+  WEB3FORMS_KEY: "4a319cb1-2421-4170-9c31-1c3cf3abded0",
 };
 
 export interface FAQItem {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { CONFIG } from '../data/config';
-import { LifeBuoy, Mail, HelpCircle, ArrowLeft, CheckCircle2 } from 'lucide-react';
+import { LifeBuoy, Mail, HelpCircle, ArrowLeft, CheckCircle2, Loader2, AlertCircle } from 'lucide-react';
 
 interface SupportPageProps {
   onNavigate: (path: string) => void;
@@ -8,12 +8,45 @@ interface SupportPageProps {
 
 export const SupportPage: React.FC<SupportPageProps> = ({ onNavigate }) => {
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [userEmail, setUserEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setIsSubmitting(true);
+    setErrorMessage(null);
+
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({
+          access_key: CONFIG.WEB3FORMS_KEY,
+          subject: `[LinkVault Support] ${subject}`,
+          from_name: 'LinkVault Web Support',
+          replyto: userEmail,
+          email: userEmail,
+          message: `Sender Email: ${userEmail}\nSubject: ${subject}\n\nMessage:\n${message}`,
+        }),
+      });
+
+      const data = await response.json();
+      if (data.success) {
+        setSubmitted(true);
+      } else {
+        setErrorMessage(data.message || 'Something went wrong. Please try again or email us directly.');
+      }
+    } catch (err) {
+      setErrorMessage('Failed to send message. Please check your internet connection or email us directly.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const troubleTopics = [
@@ -108,6 +141,27 @@ export const SupportPage: React.FC<SupportPageProps> = ({ onNavigate }) => {
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-4">
+              {errorMessage && (
+                <div className="p-4 rounded-xl bg-red-950/50 border border-red-800/60 text-red-200 text-xs flex items-center gap-3">
+                  <AlertCircle className="w-5 h-5 text-red-400 shrink-0" />
+                  <span>{errorMessage}</span>
+                </div>
+              )}
+
+              <div>
+                <label className="block text-xs font-semibold text-slate-300 mb-1">
+                  Your Email Address
+                </label>
+                <input
+                  type="email"
+                  required
+                  placeholder="your.email@example.com"
+                  value={userEmail}
+                  onChange={(e) => setUserEmail(e.target.value)}
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-blue-500"
+                />
+              </div>
+
               <div>
                 <label className="block text-xs font-semibold text-slate-300 mb-1">
                   Subject / Topic
@@ -138,9 +192,17 @@ export const SupportPage: React.FC<SupportPageProps> = ({ onNavigate }) => {
 
               <button
                 type="submit"
-                className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs shadow-lg transition cursor-pointer"
+                disabled={isSubmitting}
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 disabled:bg-blue-800 disabled:cursor-not-allowed text-white font-semibold text-xs shadow-lg transition cursor-pointer"
               >
-                Send Support Message
+                {isSubmitting ? (
+                  <>
+                    <Loader2 className="w-4 h-4 animate-spin" />
+                    <span>Sending Message...</span>
+                  </>
+                ) : (
+                  <span>Send Support Message</span>
+                )}
               </button>
             </form>
           )}
